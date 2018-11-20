@@ -52,6 +52,5 @@ ksort($arList);
 foreach ($arList as $key => $val) {
     $arList[$key] = json_decode($val);
 }
-
 echo "Stored string in redis" . "<br>";
 var_dump($arList);
